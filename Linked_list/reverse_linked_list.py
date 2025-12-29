@@ -1,11 +1,11 @@
-def reverse(head):
+def reverse_linked_list(head):
     prev = None
     curr = head
 
     while curr:
-        nextNode = curr.next
-        curr.next = prev #reverse the dirrection of the pointer
-        prev = curr #set the current node to the prev for the nextnode
-        curr = nextNode #move on till the curr is null
-
-    return prev
+        next_node = curr.next
+        curr.next = prev
+        prev = curr
+        curr = next_node
+    
+    return prev #which is our new node
