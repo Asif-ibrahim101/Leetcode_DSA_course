@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/asifibrahim/Desktop/Learn_DSA",
-      "program": "/Users/asifibrahim/Desktop/Learn_DSA/build/Debug/outDebug"
+      "cwd": "/Users/asifibrahim/Desktop/Learn_DSA/Stacks_and_Queus",
+      "program": "/Users/asifibrahim/Desktop/Learn_DSA/Stacks_and_Queus/build/Debug/outDebug"
     }
   ]
 }
